@@ -7,7 +7,7 @@ function sendMessage(event) {
     alert(
         "Terima kasih, " +
         nama +
-        "! Pesan kamu berhasil dikirim ❤️"
+        "! Pesan kamu berhasil dikirim 👍🏻"
     );
 
     event.target.reset();
