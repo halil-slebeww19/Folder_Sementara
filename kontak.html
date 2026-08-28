@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SehatKu - Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <span>💚</span> SehatKu
+        </div>
+
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li><a href="layanan.html">Layanan</a></li>
+        </ul>
+
+        <a href="mailto:info@sehatku.com"></a>
+
+    </nav>
+
+
+    <main class="contact-page">
+
+        <div class="contact-box">
+
+            <p class="subtitle">
+                CONTACT US
+            </p>
+
+            <h1>
+                Mari Mulai
+                <span>Hidup Sehat.</span>
+            </h1>
+
+            <p>
+                Punya pertanyaan atau ingin mendapatkan
+                informasi lebih lanjut?
+            </p>
+
+
+            <form onsubmit="sendMessage(event)">
+
+                <input type="text" id="nama" placeholder="Nama kamu" required>
+
+                <input type="email" id="email" placeholder="Email kamu" required>
+
+                <textarea id="pesan" placeholder="Tulis pesan kamu..." required></textarea>
+
+                <button type="submit">
+                    Kirim Pesan ➜
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
